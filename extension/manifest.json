@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Local Model Connector",
+  "version": "1.0.0",
+  "description": "桥接本地 AI 模型管家，通过 WebSocket 代理转发请求",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "http://localhost:11434/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Local Model Connector"
+  }
+}

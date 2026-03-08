@@ -1,0 +1,12 @@
+{
+  "name": "local-model-connector",
+  "version": "1.0.0",
+  "description": "OpenHarmony 本地 AI 模型连接器 - 通过 Chrome 扩展桥接本地模型管家，暴露 OpenAI 兼容 API",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
